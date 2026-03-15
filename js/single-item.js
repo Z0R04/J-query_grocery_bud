@@ -14,6 +14,17 @@ function createSingleItem(item) {
       <i class="fa-regular fa-trash-can"></i>
     </button>
   `);
+  $div.find('input[type="checkbox"]').on("change", function () {
+    editCompleted(item.id);
+  });
+
+  $div.find(".remove-btn").on("click", function () {
+    removeItem(item.id);
+  });
+
+  $div.find(".edit-btn").on("click", function () {
+    setEditId(item.id);
+  });
 
   return $div;
 }

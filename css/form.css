@@ -16,17 +16,17 @@ form h2 {
   border-radius: 0;
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
-  border: 1px solid #ddd;
+  border: 1px solid #7f7878;
 }
 
 .form-input::placeholder {
-  color: #aaa;
+  color: #523b3b;
 }
 
 .form-control .btn {
   cursor: pointer;
   color: #fff;
-  background: #056238;
+  background: #0b3b76;
   border: transparent;
   border-radius: 0;
   border-top-right-radius: 0.25rem;

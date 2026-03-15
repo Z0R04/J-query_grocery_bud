@@ -4,12 +4,12 @@ function createForm(editId, itemToEdit) {
 
   // added value and dynamic button name
   $form.html(`
-    <h2>grocery</h2>
+    <h2>🛒 grocery</h2>
     <div class="form-control">
       <input
         type="text"
         class="form-input"
-        placeholder="e.g.Bread"
+        placeholder="e.g. Bread"
         value="${itemToEdit ? itemToEdit.name : ""}"
       />
       <button type="submit" class="btn">
